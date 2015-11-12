@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Nat_Localmail>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Nat_Localmail>
+	</modules>
+</config>

@@ -1,0 +1,3 @@
+app/code/community/Nat/Localmail  app/code/community/Nat/Localmail
+app/etc/modules/Nat_Localmail.xml  app/etc/modules/Nat_Localmail.xml
+var/email/  var/email/

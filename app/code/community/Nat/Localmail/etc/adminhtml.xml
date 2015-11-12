@@ -1,0 +1,25 @@
+<config>
+  <acl>
+    <resources>
+      <all>
+        <title>Allow Everything</title>
+      </all>
+      <admin>
+        <children>
+          <system>
+            <children>
+              <config>
+                <children>
+                  <localmail>
+                    <title>NAT Local Mail Simulator</title>
+                    <sort_order>1000</sort_order>
+                  </localmail>
+                </children>
+              </config>
+            </children>
+          </system>
+        </children>
+      </admin>
+    </resources>
+  </acl>
+</config>
