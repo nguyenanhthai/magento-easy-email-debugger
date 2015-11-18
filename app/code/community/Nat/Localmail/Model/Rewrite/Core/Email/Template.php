@@ -89,7 +89,7 @@ class Nat_Localmail_Model_Rewrite_Core_Email_Template extends Mage_Core_Model_Em
     $mail->setFrom($this->getSenderEmail(), $this->getSenderName());
 
     /* Local Mail Server */
-    if ($_mode = Mage::getStoreConfig('localmail/general/mode')) {
+    if ($_mode = Mage::helper('localmail')->getMode()) {
       switch ($_mode) {
         case Nat_Localmail_Model_System_Config_Source_Mode::SHOW_CONTENT_AND_STOP:
           echo $text;
